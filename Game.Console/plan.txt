@@ -1,0 +1,18 @@
+Towers of hanoi
+www.mathsisfun.com/games/towerofhanoi.html
+«Object of the game is to move all the disks over to Tower 3. 
+But you cannot place a larger disk onto a smaller disk.»
+
+1. Objektorientert analyse og design
+   a. Hvilke klasser?
+   b. Hvilken funksjonalitet?
+   c. Hvordan samarbeider klassene om en viss funksjonalitet?
+2. Hvordan vise?
+3. Flytte disk - GUI og logikk
+4. Vunnet?
+
+Single Responsibility Principle (Torsdag?)
+
+5. Intro WPF
+6. Flytte spillet til WPF, inkludert flere klasser og class library
+7. Refactoringsoppgave Canvas i WPF, bilspill
