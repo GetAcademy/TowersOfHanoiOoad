@@ -9,7 +9,7 @@
             _size = size;
         }
 
-        public void Show(int columnNo, int row)
+        public void Show(int row, int columnNo)
         {
             var col = 1 + (columnNo - 1) * 15;
             var text = "".PadLeft(_size, '#');

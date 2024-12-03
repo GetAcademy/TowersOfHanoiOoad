@@ -2,12 +2,17 @@
 {
     internal class Tower
     {
-        private Disc[] _discs;
-        private int _position;
+        private readonly Disc[] _discs;
+        private readonly int _position;
 
-        public Tower(int position, Disc[] discs)
+        public Tower(int position, params int[] discSizes)
         {
-            _discs = discs;
+            _discs = new Disc[3];
+            for (var index = 0; index < discSizes.Length; index++)
+            {
+                var size = discSizes[index];
+                _discs[index] = new Disc(size);
+            }
             _position = position;
         }
 

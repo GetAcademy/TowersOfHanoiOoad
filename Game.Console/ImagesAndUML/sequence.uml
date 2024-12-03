@@ -1,0 +1,19 @@
+@startuml
+
+skin rose
+
+actor User
+
+User -> Game: MoveDisc(1,2)
+Game -> Game: GetTower(1)
+Game -> Tower: GetTopDisc()
+Game -> Disc: GetSize()
+Game -> Game: GetTower(2)
+Game -> Tower: GetTopDisc()
+Game -> Disc: GetSize()
+Game -> Game: IsValidMove()
+Game -> Tower: var disc = RemoveTopDisc()
+Game -> Tower: AddDisc(disc)
+
+
+@enduml

@@ -3,6 +3,8 @@
 //var disc = new Disc(5);
 //disc.Show(2,5);
 
+Console.Clear();
+var game = new Game.UI.Game();
+game.Run();
 
-var tower = new Tower(1, new Disc[] { new Disc(3), new Disc(5) });
-tower.Show();
+Console.CursorTop=10;
