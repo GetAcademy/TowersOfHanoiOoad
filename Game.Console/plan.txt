@@ -1,9 +1,9 @@
-Towers of hanoi
-www.mathsisfun.com/games/towerofhanoi.html
+Towers of Hanoi
+https://www.mathsisfun.com/games/towerofhanoi.html
 «Object of the game is to move all the disks over to Tower 3. 
 But you cannot place a larger disk onto a smaller disk.»
 
-1. Objektorientert analyse og design
+1. Objektorientert Analyse og Design
    a. Hvilke klasser?
    b. Hvilken funksjonalitet?
    c. Hvordan samarbeider klassene om en viss funksjonalitet?
