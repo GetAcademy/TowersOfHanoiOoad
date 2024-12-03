@@ -1,0 +1,1 @@
+@startumlclass Gameclass Towerclass Disc Game -> TowerTower -> Disc@enduml
